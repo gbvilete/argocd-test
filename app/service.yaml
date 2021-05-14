@@ -7,6 +7,6 @@ spec:
   selector:
     app: helloworld
   ports:
-    - port: nodejs-port
-      targetPort: nodejs-port
+    - port: 3000
+      targetPort: 3000
       nodePort: 30007
